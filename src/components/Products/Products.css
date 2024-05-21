@@ -1,14 +1,13 @@
 .product{
-    width: 300px;
-    height: 508px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .product img {
     width: 286px;
-    height: 286px;
     margin: 7px;
     border-radius: 8px;
 }
@@ -32,8 +31,8 @@
     background: #FFE0B3;
     border: 1px solid #95A0A7;
     border-radius: 0px 0px 8px 8px;
-    position: absolute;
-    bottom: 0;
+ 
+
 }
 .btn-cart:hover{
   background-color: orange;
